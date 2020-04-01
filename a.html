@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction(){
+  var x = document.getElementById("myFile");
+  var txt = "";
+  
+  if ('files' in x) {
+    if (x.files.length == 0) {
+      txt = "Select one or more files.";
+    } else {
+      txt += "name: " + x.files[0].name + "<br>";
+  		txt += "size: " + x.files[0].size + " bytes <br>";
+    }
+  } 
+  else {
+    if (x.value == "") {
+      txt += "Select one or more files.";
+    } else {
+      txt += "The files property is not supported by your browser!";
+      txt  += "<br>The path of the selected file: " + x.value;
+    }
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+</head>
+<body onload="myFunction()">
+
+<input type="file" id="myFile" onchange="myFunction()">
+
+<p id="demo"></p>
+
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+tv
+telivision
+computer
+headphone
+earphone
+speaker
+camera
+air conditioner
+ac
+refrigerator
+fridge
+washing machine
+apparel
+Clothe
+Clothing
+tshirt
+t shirt
+t-shirt
+shirt
+jeans
+innerwear
+watche
+bag
+luggage
+sunglass
+glasses
+wallet
+shoe
+sports shoe
+formal shoe
+casual shoe
+furniture
+chair
+table
+cricket
+badminton
+cycle
+football
+car
+bike
+motorbike
+book
+tablet
+power banks
+smart phone
+monitor
+desktop
+
